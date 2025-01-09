@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.h1h1{
+    color:#fff;
+    text-align: center;
+}
+header {
+    background-color: #555555;
+    color: white;
+    padding: 10px 0;
+}
+.intro{
+    text-align: center;
+    min-height:20vh;
+}
+h2{
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.details{text-align: center;}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.destination {
+    width: 30%;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+ display: flex;
+align-items: center;
+ flex-direction: column;
+}
+
+form label {
+    text-align: right;
+}
+
+form input, form textarea {
+    width: 25%;
+    padding: 8px;
+}
+.imgPage2{
+    width:30%;
+}
+footer {
+    background-color: #555555;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.main{
+    min-height: 75vh;
+}
+.tasks li{
+     list-style-type: none;
+     padding:5vh 0;
+     width: 20vw;
+     margin: 20px auto;
+     border: 1px solid #000;
+     border-radius:100px;
+     transition: .2s;
+}
+.tasks ul{
+    text-align: center;
+    padding: 0;
+}
+.tasks li a{
+    color: black;
+    font-size: 2vw;
+    transition: .2s;
+}
+.tasks li:hover{
+    background-color: #000;
+}
+.tasks li:hover a{
+   color: #fff;
+}
+.tasks h2{
+    font-size: 50px;
+}
+@media (max-width: 840px){
+
+    .tasks li {
+        list-style-type: none;
+        padding: 3vh 0;
+        width: 50vw;
+        margin: 20px auto;
+        border: 1px solid #000;
+        border-radius: 100px;
+    }
+    .tasks li a {
+        color: black;
+        font-size: 5vw;
+    }
+    form input, form textarea {
+        width: 50%;
+    }
+    .imgPage2{
+        width: 50%
+    }
+    .h1h1 {
+        font-size:5vw;
+    }
+}
